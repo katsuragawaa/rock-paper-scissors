@@ -18,7 +18,9 @@ header {
 
 header h1 {
     color:#3B342E;
+    font-size: 60px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .score-board {
