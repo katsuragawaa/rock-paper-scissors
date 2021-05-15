@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #3B342E;
+}
+
+header {
+    background: #FBEB04;
+    padding: 20px;
+}
+
+header h1 {
+    color:#3B342E;
+    text-align: center;
+}
+
+.score-board {
+    position: relative;
+    margin: 20px auto;
+    padding: 15px 20px;
+    border: 3px solid #F0EFEF ;
+    border-radius: 4px;
+    width: 200px;
+    color: #F0EFEF;
+    font-size: 46px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.badge {
+    padding: 2px 10px;
+    background: #BD331E;
+    color: #F0EFEF;
+    font-size: 14px;
+}
+
+#user-label {
+    position: absolute;
+    top: 20px;
+    left: -30px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 20px;
+    right: -70px;
+}
+
+.result {
+    font-size: 40px;
+    color: #fbeb04;
+}
+
+.result > p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.choices {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.choice {
+    margin: 0 20px;
+    display: inline-block;
+    padding: 10px;
+    transition: all 0.8s ease;
+}
+
+.choice img {
+    transition: all 0.4s ease;
+    border-radius: 30%;
+    width: 100px;
+    border: solid 5px white;
+}
+
+.choice img:hover {
+    transform: rotate(20deg);
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #F0EFEF;
+}
+
+.green-glow {
+    border: solid 5px #46cc7d !important;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+    border: solid 5px #fc121b !important;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow {
+    border: solid 5px #464647 !important;
+    box-shadow: 0 0 10px #25292b;
+}
