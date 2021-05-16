@@ -34,7 +34,7 @@ function win(user, computer) {
 
 function lose(user, computer) {
     computerScore++;
-    computerScore_span.innerHTML = userScore;
+    computerScore_span.innerHTML = computerScore;
     document.getElementById(user).classList.add("red-glow");
     setTimeout(() => {
         document.getElementById(user).classList.remove("red-glow");
